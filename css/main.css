@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #2C3333;
+  color: #CBE4DE;
+}
+
+a {
+  color: #0E8388;
+}
+
+a:hover {
+  color: #2E4F4F;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: inline;
+}
+
+/* Custom night mode theme and mint color scheme */
+
+header {
+  background-color: #2E4F4F;
+  padding: 1rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #CBE4DE;
+}
+
+button {
+  background-color: #0E8388;
+  color: #CBE4DE;
+  border: none;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2E4F4F;
+}
+
+/* Additional CSS for modern look and night mode theme
+... */
